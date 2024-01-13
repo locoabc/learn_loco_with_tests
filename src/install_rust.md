@@ -1,4 +1,4 @@
-# Install Rust
+# Install Loco
 
 The official instructions to install Rust can be found [here](https://www.rust-lang.org/tools/install).
 
@@ -10,11 +10,24 @@ Rust is installed through the `rustup` command line tool, which allows us to man
 
 If you're using linux, you can open a terminal and enter the following command:
 
-`$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh`
+`$ cargo install loco`
 
 This command downloads the `rustup` install script and runs it, which will then install Rust. You might be prompted to enter your password. If the install was successful, you should see the following message:
 
-`Rust is installed now. Great!`
+`[me@rocky9t01a src]$ loco -h  && loco -V
+loco cli website generator
+
+Usage: loco <COMMAND>
+
+Commands:
+  new   Create a new Loco website
+  help  Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help     Print help
+  -V, --version  Print version
+loco-cli 0.2.5
+[me@rocky9t01a src]$ `
 
 To verify the script ran successfully, we can type the following command to get the `rustup` version: 
 
