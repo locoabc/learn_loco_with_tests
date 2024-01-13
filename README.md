@@ -1,6 +1,7 @@
-# Learn Rust with Tests
+# Learn Loco with Tests
 
-⚠️ **WIP**: **This project is an ongoing work in progress. Links may be broken and content may be missing. If you find something wrong, please open an issue and we'll get them fixed asap.**
+
+⚠️ **WIP**: **This is origined from project learn Rust with Tests**
 
 ## Why
 
