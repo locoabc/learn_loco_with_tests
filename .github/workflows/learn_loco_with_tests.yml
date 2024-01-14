@@ -27,7 +27,7 @@ concurrency:
 jobs:
   # Test job
   test:
-    runs-on: -ubuntu-latest
+    runs-on: ubuntu-latest
     name: Run tests
     env: 
       MDBOOK_VERSION: 0.4.36
