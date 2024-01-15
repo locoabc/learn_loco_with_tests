@@ -150,15 +150,6 @@ doc:
 	rustdoc README.md --crate-name docs
 	cargo doc
 	ls target/doc doc
-#	rustdoc src/bin/cmdbc.rs  --crate-name docs
-
-test: 
-	cargo test --bin cmdbc  -- --test-threads 1 --nocapture + 01 02 03 04 05 06 07 08 09 10 11 12 13 14
-test2: build
-	@echo "................ cmdbclient help                     ..................."
-	target/debug/cmdbc --help
-	@echo "................ Run cmdbc  -s -h va32rocky8t03  ..................."
-	target/debug/cmdbc -s -h va32rocky8t03
 
 help:
 	@echo "Usage: make <target> <argument>"
